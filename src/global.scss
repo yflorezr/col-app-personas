@@ -24,3 +24,30 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.u-regular {
+    font-weight: 400;
+}
+
+.u-medium {
+    font-weight: 500;
+}
+
+.u-bold {
+    font-weight: bold;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+    position: absolute;
+    bottom: 110px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.swiper-pagination-bullet{
+    background: transparent;
+    border: 1px solid var(--ion-color-warning);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active{
+    background: var(--ion-color-warning) ;
+}
